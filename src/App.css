@@ -1,13 +1,29 @@
 .App {
   text-align: center;
-  background-image: url('https://img.wallpapersafari.com/desktop/1600/900/29/23/QPCEwW.jpg');
-  /* position: fixed; */
-  /* min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center; */
-  padding: 10px;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(100, 98, 98);
+}
+
 .icon {
   color: aliceblue;
+  width: 10%;
+  height: 10%;
+  margin-right: 5%;
+  margin-top: 6%;
+}
+
+h3{
+    margin-top: 8%;
+    color: black;
+    align-self: flex-start;
+    font-family: "Pacifico", cursive;
+}
+
+p{
+    color: black;
+    font-family: "Pacifico", cursive;
 }
