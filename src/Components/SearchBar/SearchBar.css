@@ -8,8 +8,30 @@
   color: aliceblue;
 
   padding: 10px;
-  box-shadow: 5px 10px 8px #888888;
 }
 .pic {
   justify-content: start;
+}
+.search-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+hr{
+  border-bottom: 3px solid  rgb(185, 134, 22);
+}
+.seach-box{
+  margin-right: 5%;
+  border: 1px solid black;
+  height: 30px;
+  border: 1px solid rgb(185, 134, 22);
+}
+
+.search{
+  border: 1px solid rgb(185, 134, 22);
+  height: 30px;
+  font-family: "Pacifico", cursive;
+  height: 34px;
+  background-color: rgb(219, 183, 146);
 }
