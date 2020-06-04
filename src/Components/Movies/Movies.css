@@ -1,8 +1,15 @@
 .movies-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .main {
   color: aliceblue;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+img {
+  width: 120px;
 }

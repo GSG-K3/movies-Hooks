@@ -25,14 +25,16 @@ function Movies() {
   return (
     <div className="main">
       {movies.map((movie, i) => (
-        <ul className="movie-container">
-          <img
-            className="poster"
-            src={`http://image.tmdb.org/t/p/w185${movie.poster_path}`}
-          />
-          <h2 className="heading">{movie.title}</h2>
-          <p className="rating"> Rating: {movie.vote_average}</p>
-        </ul>
+        <div>
+          <ul className="movie-container">
+            <img
+              className="poster"
+              src={`http://image.tmdb.org/t/p/w185${movie.poster_path}`}
+            />
+            <h2 className="heading">{movie.title}</h2>
+            <p className="rating"> Rating: {movie.vote_average}</p>
+          </ul>
+        </div>
       ))}
     </div>
   );
