@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import SearchBar from './Components/SearchBar/SearchBar';
 import Movies from './Components/Movies/Movies';
-import SearchBar from './Components/SearchBar/SearchBar';
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,6 @@ function App() {
       />
       <SearchBar />
       <Movies />
-      <SearchBar />
     </div>
   );
 }
