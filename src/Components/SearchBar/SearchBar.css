@@ -1,0 +1,15 @@
+.first {
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  justify-content: space-around;
+}
+.movies {
+  color: aliceblue;
+
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.pic {
+  justify-content: start;
+}
